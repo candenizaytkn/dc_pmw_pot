@@ -60,8 +60,8 @@ README.md
 ## 🧑‍🔬 Author
 
 This project is developed for educational and demonstration purposes.  
-Created by: [Your Name]  
-GitHub: [your-github-link]
+Created by: [Can Deniz Aytekin]  
+GitHub: [https://github.com/candenizaytkn]
 
 
 ## 📸 Real-Life Setup
