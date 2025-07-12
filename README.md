@@ -2,7 +2,7 @@
 
 This project demonstrates how to control the speed of a DC motor using PWM (Pulse Width Modulation) with a potentiometer and an Arduino.
 
-## 🔧 Components Used
+## Components Used
 
 - 1 x Arduino Uno
 - 1 x DC Motor
@@ -14,17 +14,17 @@ This project demonstrates how to control the speed of a DC motor using PWM (Puls
 - Breadboard
 - External Power Supply (Optional)
 
-## 🧠 How It Works
+## How It Works
 
 The potentiometer adjusts the voltage level on an analog input pin of the Arduino. The Arduino reads this analog value and maps it to a PWM signal that is output to the base of the TIP120 transistor, which drives the motor.
 
 As you turn the potentiometer, the PWM signal changes, thus controlling the motor speed.
 
-## 🔌 Circuit Diagram
+## Circuit Diagram
 
 ![Circuit Diagram](circuit_diagram.jpg)
 
-## 💻 Arduino Code
+## Arduino Code
 
 The Arduino code reads the analog input from the potentiometer and outputs a corresponding PWM signal to control the transistor.
 
@@ -43,13 +43,13 @@ void loop() {
 }
 ```
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 1. Connect the components according to the circuit diagram.
 2. Upload the Arduino sketch (`motor_control.ino`) using the Arduino IDE.
 3. Power the circuit and rotate the potentiometer to control the motor speed.
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 motor_control.ino
@@ -57,14 +57,14 @@ circuit_diagram.jpg
 README.md
 ```
 
-## 🧑‍🔬 Author
+## Author
 
 This project is developed for educational and demonstration purposes.  
 Created by: [Can Deniz Aytekin]  
 GitHub: [https://github.com/candenizaytkn]
 
 
-## 📸 Real-Life Setup
+## Real-Life Setup
 
 Below is the actual setup of the project as built on a breadboard:
 
